@@ -1,11 +1,11 @@
 ---
-title: "Template Revealjs Quarto site"
+title: "Honesty, Rigour and Transparency - Research Software Engineering Perspective"
 # format: revealjs
 author:
-  - name: Your Name
-    orcid: 0000-0000-0000-0000
-    email: email@address.work
-    affiliations: Employers Name
+  - name: Neil Shephard
+    orcid: 0000-0001-8301-6857
+    email: n.shephard@sheffield.ac.uk
+    affiliations: Research Software Engineer, Computer Science, University of Sheffield
 from: markdown+emoji
 format:
   clean-revealjs:
@@ -19,7 +19,7 @@ format:
     header: Quarto RevealJS Template
 revealjs-plugins:
   - confetti
-footer: "**Slides** : [**github-username.github.io/<repository>**](https://github-username.github.io/<repository>)"
+footer: "**Slides** : [**ns-rse.github.io/repres-culture**](https://ns-rse.github.io/repres-culture)"
 project:
   preview:
     port: 7864
@@ -30,309 +30,119 @@ filters:
   - reveal-header
 ---
 
-## Scan This
+## About Me
 
-{{< qrcode <https://ns-rse.github.io/quarto-revealjs-template> qr1 width=400 height=400 >}}
-
-[ns-rse.github.io/quarto-revealjs-template](https://ns-rse.github.io/quarto-revealjs-template)
-
-## Quarto RevealJS Slides
-
-This is a [Quarto](https://quarto.org/) template for creating [RevealJS](https://revealjs.com/) slides.
-
-The template can be used as a starting point for your own slides and includes a number of different layouts and examples
-of Markdown syntax, slide layout, links, embedding images and configuration options.
-
-## Formatting
-
-Quarto slides are written in [Markdown](https://quarto.org/docs/authoring/markdown-basics.html).
-
-| Markdown Syntax                              | Output                                |
-|:---------------------------------------------|:--------------------------------------|
-| `*italics*`, `**bold**`, `***bolditalics***` | *italics*, **bold**, **bold italics** |
-| `superscript^1^`, `subscript~2~`             | superscript^1^, subscript~2~          |
-| `~~strikethrough~~`                          | ~~strikethrough~~                     |
-| ```code```                                   | `code`                                |
-| `[Quarto](https://quarto.org)`               | [Quarto](https://quarto.org)          |
++ Current : Research Software Engineer
++ Past :
+  + Genetics Statistician
+  + Medical Statistician in Clinical Trials
+  + Data Scientist at Telematics Startup
 
 ::: {.notes}
-Speaker Notes can be added to each slide. **Formatting** can be used here too.
+Thank you and hello to everyone.
+
+Thought it might be useful to give a very brief overview of who I am and my background.
+
+Currently I'm a Research Software Engineer in the Department of Computer Science which means I work with researchers
+across the University to help improve the quality of their software in terms of maintainability, documentation,
+reproducibility, accessibility and the general FAIR for Research Software principles.
+
+I've no formal computer science training though and my path to this position has been winding though, starting of as a
+statistician, first in Statitical Genetics trying to identify genes that contribute to human diseases then as a Medical
+Statistician in Clinical Trials before a stint as a Data Scientist in a Telematics Startup company.
 :::
 
-## Columns and Lists
+## Reproducibility
 
-Slides can have columns and you can create [lists](https://quarto.org/docs/authoring/markdown-basics.html#lists) of
-different types.
-
-:::: {.columns}
-
-::: {.column width="50%"}
-**ToDo** (code)
-
-```markdown
-+ Learn Markdown
-+ Create Quarto Slides
-+ Publish on GitHub
-```
-
-:::
-
-::: {.column width="50%"}
-**ToDo** (Rendered)
-
-+ Learn Markdown
-+ Create Quarto Slides
-+ Publish on GitHub
-
-:::
-::::
++ Scripts and Code for (statistical) analysis...
+  + What data is used?
+  + What cleaning of data is undertaken?
+  + What statistical methods used.
+  + How tables and figures are created.
++ Version Control code as it evolves.
+  + See how code has developed/changed over time.
+  + Test code as its written
+  + Share openly on GitHub/GitLab etc.
+  + Peer review
+. . .
 
 ::: {.notes}
-Slides can have columns and we can create unordered lists.
+During my years as a Statistician I developed an interest in reproducible research and adopted literate programming
+practices which made the statistical analyses I undertook reproducible. This involved
+
+In time as I learnt more about this I started version controlling my scripts and code so that I and others could see how
+the work had evolved and easily correct the inevitable errors that cropped up.
+
+And this is an important point, no one is infallible, we _all_ make mistakes even when we try our hardest not to. I
+don't consider myself an expert or even good programmer, but I can improve the quality of my work by adopting good
+working practices, which in software development involves writing tests, using common style guides and rules when
+writing code and when it comes to incorporating changes in the main code base undertaking peer review whereby my
+collaborators look at the work I have done and are able to comment and feedback before changes are incorporated.
 :::
 
-## Columns and Lists (cont.)
-
-:::: {.columns}
-
-::: {.column width="50%"}
-**Ordered** (code)
-
-```markdown
-1. A comes before
-2. B which is followed by
-3. C
-```
-
-:::
-
-::: {.column width="50%"}
-**Ordered** (Rendered)
-
-1. A comes before
-2. B which is followed by
-3. C
-
-:::
-::::
-
-::: {.notes}
-Or ordered lists.
-:::
-
-## Tables
-
-You can manually add [tables](https://quarto.org/docs/authoring/markdown-basics.html#tables).
+## Improved Quality
 
 :::: {.columns}
 
 ::: {.column width="50%"}
 
-```markdown
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|   12  |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|    1  |    1 |     1   |     1  |
-```
+> "_given enough eyeballs, all bugs are shallow_" - Linus's Law by Eric S Raymond
 
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/800px-Tux.svg.png){width=40%}
 :::
+
 ::: {.column width="50%"}
 
-| Right | Left | Default | Center |
-|------:|:-----|---------|:------:|
-|   12  |  12  |    12   |    12  |
-|  123  |  123 |   123   |   123  |
-|    1  |    1 |     1   |     1  |
++ Rigour - my work is a higher standard.
++ Transparency - improves trust in my work.
++ Openness - this is my work, but it can be improved on.
 
 :::
+
 ::::
 
 ::: {.notes}
-Tables can be added, but there is a better way to include these programatically
+Why is this important? Well by sharing my code openly and honestly and saying "_Here is my attempt at solving this
+problem, what do you think? Can it be improved?_" I have to make it easier for others to review my code and in so doing
+I write cleaner code that is of a higher standard. I make sure that the code is easy to read, well documented and runs
+as expected by writing tests, helping reduce the scope for
+
+The transparency of putting work out there in the open means that others can have increased trust that I am not trying
+to deceive anyone with the work I claim to have undertaken. If I wrapped my work up in a black box that people couldn't
+see inside why would I expect anyone to trust the results I claim to be making?
+
+This honesty and openness is a good thing in research because we have to be able to trust each other. After all...
 :::
 
-## Equations
-
-| Markdown Syntax                    | Output                       |
-|:----------------------------------:|:-----------------------------|
-| `inline math $E = mc^{2}$`         | inline math $E = mc^{2}$     |
-| ```display math: $$E = mc^{2}$$``` | display math: $$E = mc^{2}$$ |
-
-::: {.notes}
-You can write equations if you need to.
-:::
-
-## Embed Images
-
-[Figures](https://quarto.org/docs/authoring/figures.html) can be embeded using a URL and resized.
-
-```markdown
-![Relaxing in the Julian Alps](https://live.staticflickr.com/65535/53144704609_c5e6fa8c77_k.jpg){width=700}
-```
-
-![Relaxing in the Julian Alps](https://live.staticflickr.com/65535/53144704609_c5e6fa8c77_k.jpg){width=700}
-
-::: {.notes}
-:::
-
-## Embed Images (*cont.*)
-
-You can also include images locally.^[Make sure to `git add` them otherwise they won't publish] and make them hyperlinks.
-
-```markdown
-![[OSC Sheffield](https://osc-international.com/osc-sheffield)](img/OSC_Sheffield.png){width=300}
-```
-
-![[OSC Sheffield](https://osc-international.com/osc-sheffield)](img/OSC_Sheffield.png){width=300}
-
-::: {.notes}
-:::
-
-## R code
+## Research is a Social Endeavour
 
 :::: {.columns}
 
 ::: {.column width="50%"}
-Include [R code and output](https://quarto.org/docs/computations/r.html) with automatic referencing (see @fig-airquality2)
 
-```{r}
-#| label: fig-airquality
-#| fig-cap: "Temperature and ozone level."
-#| warning: false
-#| eval: false
-#| echo: true
-library(ggplot2)
-
-ggplot(airquality, aes(Temp, Ozone)) +
-  geom_point() +
-  geom_smooth(method = "loess")
-```
+> "_If I have seen further it is by standing on the shoulders of Giants._" - Isaac Newton
 
 :::
+
 ::: {.column width="50%"}
 
-```{r}
-#| label: fig-airquality2
-#| fig-cap: "Temperature and ozone level."
-#| warning: false
-
-library(ggplot2)
-
-ggplot(airquality, aes(Temp, Ozone)) +
-  geom_point() +
-  geom_smooth(method = "loess")
-```
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Isaac_Newton_%28par_Vertue%29.jpg/800px-Isaac_Newton_%28par_Vertue%29.jpg){width=70%}
 
 :::
 
 ::::
-
 ::: {.notes}
-[R](https://www.r-project.org/) code can be embeded and executed to produce tables and figures.
+Science and research has never been an individual pursuit, rather it is a social endeavour where people work together,
+sharing their work with others and building on what has gone before.
+
+The culture of openness and replication is fundamental if Science and Research in general is to be self-correcting.
+
+The discipline of Research Software Engineering is realtively young, having emerged roughly ten years ago, but it grew
+out of a recognition that many people undertook computing and software development as part of their research, after all
+computers are ubiquotous these days, but not everyone received training in how to do so following good practices.
+
+By having RSE groups within Universities who are able to share with researchers good working practices that make their
+code FAIR and open sourced not only do the individual researchers benefit as these practices make it easier to
+understand their own work undertaken in the past, others who will come after us will be able to understand and build on
+what has been done with greater ease.
 :::
-
-## Python code
-
-::: {.column width="50%"}
-Include [Python code and output](https://quarto.org/docs/computations/python.html) too
-
-```{.python}
-#| label: fig-polar
-#| fig-cap: "A line plot on a polar axis."
-#| warning: false
-#| eval: false
-#| echo: true
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'}
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-:::
-::: {.column width="50%"}
-
-```{.python}
-#| label: fig-polar2
-#| fig-cap: "A line plot on a polar axis."
-#| warning: false
-#| eval: true
-#| echo: true
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'}
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-:::
-::::
-
-::: {.notes}
-You can include [Python](https://www.python.org) code too
-:::
-
-## General code
-
-There are lots of options for showing, hiding, highlighting [code
-blocks](https://quarto.org/docs/presentations/revealjs/#code-blocks).
-
-```{.python code-line-numbers="6-8"}
-#| eval: true
-#| echo: true
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(subplot_kw={'projection': 'polar'})
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
-
-## The Documentation is Good
-
-The official documentation is really good.
-
-+ [Get Started](https://quarto.org/docs/get-started/)
-+ [Markdown Basics](https://quarto.org/docs/authoring/markdown-basics.html)
-+ [Guide](https://quarto.org/docs/guide/) with many sections on [Presentations](https://quarto.org/docs/presentations/)
-  [Website](https://quarto.org/docs/websites/), [Books](https://quarto.org/docs/books/) and more.
-
-## Extensions
-
-:::: {.columns}
-
-::: {.column width="70%"}
-[Extensions](https://quarto.org/docs/extensions/) for themes and other functionality
-(press `c` whilst viewing these slides :wink: ).
-
-+ [Shortcode/Filter](https://quarto.org/docs/extensions/listing-filters.html)
-+ [Journal Articles](https://quarto.org/docs/extensions/listing-journals.html)
-+ [Custom Formats](https://quarto.org/docs/extensions/listing-formats.html)
-+ [**RevealJS**](https://quarto.org/docs/extensions/listing-revealjs.html)
-+ [awesome-quarto](https://github.com/mcanouil/awesome-quarto) - Quarto tools & examples
-
-:::
-::: {.column width=30%}
-This Template...
-{{< qrcode <https://ns-rse.github.io/quarto-revealjs-template> qr2 width=400 height=400 >}}
-:::
-::::

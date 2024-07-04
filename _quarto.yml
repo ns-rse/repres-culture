@@ -2,6 +2,6 @@ project:
   type: website
 
 website:
-  title: "<TITLE>"
-  site-url: https://<YOUR_GITHUB_USERNAME>.github.io/<NAME_OF_REPOSITORY
-  description: "<DESCRIPTION>"
+  title: "Honesty, Rigour and Transparency - Research Software Engineering Perspective"
+  site-url: https://ns-rse.github.io/repres-culture
+  description: "Slides for a panel discussion on Reproducible Research and  Culture of Honesty, Rigour and Transparency."
