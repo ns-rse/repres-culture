@@ -146,3 +146,8 @@ code FAIR and open sourced not only do the individual researchers benefit as the
 understand their own work undertaken in the past, others who will come after us will be able to understand and build on
 what has been done with greater ease.
 :::
+
+## Open Research
+
+![The Turing Way project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI:
+[10.5281/zenodo.3332807](https://doi.org/10.5281/zenodo.3332807)](https://the-turing-way.netlify.app/_images/reproducibility.jpg)
