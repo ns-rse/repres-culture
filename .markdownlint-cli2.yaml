@@ -16,6 +16,7 @@ globs:
 ignore:
   - ".quarto/**/*.md"
   - "_site/**/*.md"
+  - "_site/*.md"
   - "renv/**/*.md"
 
 # Fix any fixable errors
