@@ -1,0 +1,7 @@
+project:
+  type: website
+
+website:
+  title: "Honesty, Rigour and Transparency - Research Software Engineering Perspective"
+  site-url: https://ns-rse.github.io/repres-culture
+  description: "Slides for a panel discussion on Reproducible Research and  Culture of Honesty, Rigour and Transparency."

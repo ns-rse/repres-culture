@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Honesty, Rigour and Transparency - Research Software Engineering Perspective",
+    "section": "About Me",
+    "text": "About Me\n\nCurrent : Research Software Engineer\nPast :\n\nGenetics Statistician\nMedical Statistician in Clinical Trials\nData Scientist at Telematics Startup\n\n\n\nThank you and hello to everyone.\nThought it might be useful to give a very brief overview of who I am and my background.\nCurrently I’m a Research Software Engineer in the Department of Computer Science which means I work with researchers across the University to help improve the quality of their software in terms of maintainability, documentation, reproducibility, accessibility and the general FAIR for Research Software principles.\nI’ve no formal computer science training though and my path to this position has been winding though, starting of as a statistician, first in Statitical Genetics trying to identify genes that contribute to human diseases then as a Medical Statistician in Clinical Trials before a stint as a Data Scientist in a Telematics Startup company."
+  },
+  {
+    "objectID": "index.html#reproducibility",
+    "href": "index.html#reproducibility",
+    "title": "Honesty, Rigour and Transparency - Research Software Engineering Perspective",
+    "section": "Reproducibility",
+    "text": "Reproducibility\n\nScripts and Code for (statistical) analysis…\n\nWhat data is used?\nWhat cleaning of data is undertaken?\nWhat statistical methods used.\nHow tables and figures are created.\n\nVersion Control code as it evolves.\n\nSee how code has developed/changed over time.\nTest code as its written\nShare openly on GitHub/GitLab etc.\nPeer review . . .\n\n\n\nDuring my years as a Statistician I developed an interest in reproducible research and adopted literate programming practices which made the statistical analyses I undertook reproducible. This involved\nIn time as I learnt more about this I started version controlling my scripts and code so that I and others could see how the work had evolved and easily correct the inevitable errors that cropped up.\nAnd this is an important point, no one is infallible, we all make mistakes even when we try our hardest not to. I don’t consider myself an expert or even good programmer, but I can improve the quality of my work by adopting good working practices, which in software development involves writing tests, using common style guides and rules when writing code and when it comes to incorporating changes in the main code base undertaking peer review whereby my collaborators look at the work I have done and are able to comment and feedback before changes are incorporated."
+  },
+  {
+    "objectID": "index.html#improved-quality",
+    "href": "index.html#improved-quality",
+    "title": "Honesty, Rigour and Transparency - Research Software Engineering Perspective",
+    "section": "Improved Quality",
+    "text": "Improved Quality\n\n\n\n“given enough eyeballs, all bugs are shallow” - Linus’s Law by Eric S Raymond\n\n\n\n\nRigour - my work is a higher standard.\nTransparency - improves trust in my work.\nOpenness - this is my work, but it can be improved on.\n\n\n\n\nWhy is this important? Well by sharing my code openly and honestly and saying “Here is my attempt at solving this problem, what do you think? Can it be improved?” I have to make it easier for others to review my code and in so doing I write cleaner code that is of a higher standard. I make sure that the code is easy to read, well documented and runs as expected by writing tests, helping reduce the scope for\nThe transparency of putting work out there in the open means that others can have increased trust that I am not trying to deceive anyone with the work I claim to have undertaken. If I wrapped my work up in a black box that people couldn’t see inside why would I expect anyone to trust the results I claim to be making?\nThis honesty and openness is a good thing in research because we have to be able to trust each other. After all…"
+  },
+  {
+    "objectID": "index.html#research-is-a-social-endeavour",
+    "href": "index.html#research-is-a-social-endeavour",
+    "title": "Honesty, Rigour and Transparency - Research Software Engineering Perspective",
+    "section": "Research is a Social Endeavour",
+    "text": "Research is a Social Endeavour\n\n\n\n“If I have seen further it is by standing on the shoulders of Giants.” - Isaac Newton\n\n\n\n\n\n\nScience and research has never been an individual pursuit, rather it is a social endeavour where people work together, sharing their work with others and building on what has gone before.\nThe culture of openness and replication is fundamental if Science and Research in general is to be self-correcting.\nThe discipline of Research Software Engineering is realtively young, having emerged roughly ten years ago, but it grew out of a recognition that many people undertook computing and software development as part of their research, after all computers are ubiquotous these days, but not everyone received training in how to do so following good practices.\nBy having RSE groups within Universities who are able to share with researchers good working practices that make their code FAIR and open sourced not only do the individual researchers benefit as these practices make it easier to understand their own work undertaken in the past, others who will come after us will be able to understand and build on what has been done with greater ease.\n\n\n\n\nSlides : ns-rse.github.io/repres-culture\n\n\n\n\n\n\n\n \n\n\nQuarto RevealJS Template"
+  }
+]
