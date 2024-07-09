@@ -68,7 +68,8 @@ Statistician in Clinical Trials before a stint as a Data Scientist in a Telemati
 
 ::: {.notes}
 During my years as a Statistician I developed an interest in reproducible research and adopted literate programming
-practices which made the statistical analyses I undertook reproducible. This involved
+practices which made the statistical analyses I undertook reproducible. This involved writing reports in LaTeX with
+tables and figures generated automatically from scripts.
 
 In time as I learnt more about this I started version controlling my scripts and code so that I and others could see how
 the work had evolved and easily correct the inevitable errors that cropped up.
@@ -78,6 +79,9 @@ don't consider myself an expert or even good programmer, but I can improve the q
 working practices, which in software development involves writing tests, using common style guides and rules when
 writing code and when it comes to incorporating changes in the main code base undertaking peer review whereby my
 collaborators look at the work I have done and are able to comment and feedback before changes are incorporated.
+
+Further by making the code I work on these days open to others they are able to scrutinise, critique and contribute to
+the work.
 :::
 
 ## Improved Quality
@@ -105,7 +109,7 @@ collaborators look at the work I have done and are able to comment and feedback 
 Why is this important? Well by sharing my code openly and honestly and saying "_Here is my attempt at solving this
 problem, what do you think? Can it be improved?_" I have to make it easier for others to review my code and in so doing
 I write cleaner code that is of a higher standard. I make sure that the code is easy to read, well documented and runs
-as expected by writing tests, helping reduce the scope for
+as expected by writing tests, helping reduce the scope for errors in the first instance as I'm more rigorous.
 
 The transparency of putting work out there in the open means that others can have increased trust that I am not trying
 to deceive anyone with the work I claim to have undertaken. If I wrapped my work up in a black box that people couldn't
@@ -137,11 +141,16 @@ sharing their work with others and building on what has gone before.
 
 The culture of openness and replication is fundamental if Science and Research in general is to be self-correcting.
 
-The discipline of Research Software Engineering is realtively young, having emerged roughly ten years ago, but it grew
-out of a recognition that many people undertook computing and software development as part of their research, after all
-computers are ubiquotous these days, but not everyone received training in how to do so following good practices.
+The discipline I work in now, Research Software Engineering, is relatively young, having emerged roughly ten years ago,
+but it grew out of a recognition that many people undertook computing, statistical analysis and software development as
+part of their research, after all computers are ubiquotous these days, but not everyone received training in how to do
+so following good practices.
 
-By having RSE groups within Universities who are able to share with researchers good working practices that make their
+
+And this is one practice that Universities can adopt to improve the quality and openness of software and analyses.
+
+Research groups aren't going to attract software engineers to work on short-term contracts but by having RSE groups
+within Universities who are able to share with researchers good working practices that make their
 code FAIR and open sourced not only do the individual researchers benefit as these practices make it easier to
 understand their own work undertaken in the past, others who will come after us will be able to understand and build on
 what has been done with greater ease.
