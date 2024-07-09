@@ -16,7 +16,7 @@ format:
     chalkboard: true
     # embed-resources: true
     # standalone: true
-    header: Quarto RevealJS Template
+    header: Honesty, Rigour and Transparent Research
 revealjs-plugins:
   - confetti
 footer: "**Slides** : [**ns-rse.github.io/repres-culture**](https://ns-rse.github.io/repres-culture)"
